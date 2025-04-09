@@ -19,78 +19,61 @@ Este é um projeto de blog desenvolvido com Python e Django. O blog tem como pri
 
 ## Funcionalidades
 
-- Criar, editar e deletar postagens
 - Exibir postagens publicadas
 - Interface responsiva
 
-## Instalação
+# 📝 Blog Simples em Django
 
-### Pré-requisitos
+Um projeto de blog desenvolvido com Django, focado no aprendizado do fluxo de trabalho com Git. O sistema permite a listagem de posts e visualização do conteúdo individual de cada post.
 
-Certifique-se de ter o Python e o Git instalados no sistema.
+---
 
-1. Clone este repositório:
+## 🧩 User Story
 
-   ```bash
-   git clone https://github.com/JonataRubens/ES.git
-   cd ES
-   ```
+**Como** visitante do blog,  
+**Quero** visualizar uma lista de posts disponíveis,  
+**Para** poder clicar em um post e acessar seu conteúdo completo em uma página separada.
 
-2. Crie um ambiente virtual e ative-o:
+---
 
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # No Windows use: venv\Scripts\activate
-   ```
+## 📌 Divisão de Tarefas (Splits)
 
-3. Instale as dependências:
+1. **Configuração inicial**
+   - Criação do ambiente virtual (venv)
+   - Configuração básica do projeto Django
+   - Criação da rota inicial com página em branco
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+2. **Criação do modelo de Post**
+   - Definição da estrutura do modelo no Django
+   - Migração para criação da tabela no banco de dados
+   - Inserção de posts fictícios para testes
 
-4. Execute as migrações do banco de dados:
+3. **Estilização**
+   - Aplicação de estilos básicos com CSS
+   - Ajustes visuais simples para melhor apresentação
 
-   ```bash
-   python manage.py migrate
-   ```
+4. **Criação da Navbar e Rodapé**
+   - Implementação da barra de navegação
+   - Inclusão de rodapé padrão no layout
 
-5. Inicie o servidor de desenvolvimento:
+---
 
-   ```bash
-   python manage.py runserver
-   ```
+## ℹ️ Observação
 
-Acesse o blog em: [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
+A estrutura do projeto foi propositalmente mantida **simples e direta**, visando facilitar o entendimento do **fluxo de versionamento com Git**. Isso se deu especialmente pela limitação de alguns membros da equipe em relação ao uso da ferramenta, priorizando a prática colaborativa em um ambiente acessível.
 
-## Estrutura do Projeto
+---
 
-```
-ES/
-│── blog/               # Aplicação principal do blog
-│── static/             # Arquivos estáticos (CSS, JS, imagens)
-│── templates/          # Templates HTML do Django
-│── manage.py           # Comando de gerenciamento do Django
-│── requirements.txt    # Dependências do projeto
-│── README.md           # Este arquivo
-```
+## 🚀 Instalação
 
-## Contribuição
-
-1. Faça um fork do repositório.
-2. Crie uma branch para sua feature:
-   ```bash
-   git checkout -b minha-feature
-   ```
-3. Commit suas alterações:
-   ```bash
-   git commit -m "Minha nova feature"
-   ```
-4. Envie para o repositório remoto:
-   ```bash
-   git push origin minha-feature
-   ```
-5. Abra um Pull Request.
+```bash
+git clone https://github.com/JonataRubens/BlogDeNoticias
+cd nome-do-repo
+python -m venv venv
+source venv/bin/activate  # No Windows: venv\Scripts\activate
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
 
 ## Licença
 
