@@ -26,8 +26,11 @@ Este é um projeto de blog desenvolvido com Python e Django. O blog tem como pri
 
 Um projeto de blog desenvolvido com Django, focado no aprendizado do fluxo de trabalho com Git. O sistema permite a listagem de posts e visualização do conteúdo individual de cada post.
 
----
 
+[Link de apresentação do projeto ](https://drive.google.com/file/d/1dQ_q6OmaJ9FaRwnBxY6qHksmmMfuccFr/view?us
+p=drive_link)
+
+---
 ## 🧩 User Story
 
 **Como** visitante do blog,  
