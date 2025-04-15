@@ -44,7 +44,8 @@ p=drive_link
 1. **Configuração inicial**
    - Criação do ambiente virtual (venv)
    - Configuração básica do projeto Django
-   - Criação da rota inicial com página em branco
+   - Criação da rota inicial com página em branco![image](https://github.com/user-attachments/assets/b9d78358-624f-4862-894d-877e10d0f857)
+
 
 2. **Criação do modelo de Post**
    - Definição da estrutura do modelo no Django
